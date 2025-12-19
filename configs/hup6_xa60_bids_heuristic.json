@@ -539,6 +539,84 @@
                 ],
                 "SeriesDescription": "CLARiTI_AdvMRI_LLASL_M0"
             }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "ihmt",
+            "custom_entities": "acq-ihMTgre2500um_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*ihMT_sag_2.5mm*"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "ihmt",
+            "custom_entities": "acq-ihMTgre2500um_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*ihMT_sag_2.5mm*"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "TB1TFL",
+            "custom_entities": "acq-FlipAngle",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "FLIP ANGLE MAP",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*tfl_b1map_sag*"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "TB1TFL",
+            "custom_entities": "acq-anatomical",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "*tfl_b1map_sag*"
+            }
+        },
+        {
+            "datatype": "dwi",
+            "suffix": "dwi",
+            "custom_entities": "acq-114dir",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "DIFFUSION",
+                    "NONE",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "Axial MB DTI"
+            }
         }
     ]
 }
