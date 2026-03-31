@@ -79,6 +79,10 @@ dcm2bids -d ${uncompressed_dicom_dir} -c ${heuristic} -o ${bids_base} -p ${subj}
 # Add IntendedFor field to DWI JSON files
 python ${scripts_dir}add_intendedfor_dwi.py ${subj} ${sess} ${bids_base}
 
+# Add IntendedFor field to m0scan JSON files
+python ${scripts_dir}add_intendedfor_m0.py ${subj} ${sess} ${bids_base}
+
+
 if [[ $calculate_add_motion == "" || $calculate_add_motion == True ]] ; then 
     echo "Calculating and adding vnav motion to jsons, if vnavs are present"
     calculate_add_motion=1
