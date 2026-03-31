@@ -481,7 +481,7 @@
             "IntendedFor": 23
         },
         {
-            "datatype": "asl",
+            "datatype": "perf",
             "suffix": "asl",
             "custom_entities": "acq-HASL7",
             "criteria": {
@@ -496,7 +496,7 @@
             }
         },
         {
-            "datatype": "asl",
+            "datatype": "perf",
             "suffix": "m0scan",
             "custom_entities": "acq-LLASL",
             "criteria": {
@@ -511,7 +511,7 @@
             }
         },
         {
-            "datatype": "asl",
+            "datatype": "perf",
             "suffix": "asl",
             "custom_entities": "acq-LLASL",
             "criteria": {
@@ -526,7 +526,7 @@
             }
         },
         {
-            "datatype": "asl",
+            "datatype": "perf",
             "suffix": "m0scan",
             "custom_entities": "acq-HASL7",
             "criteria": {
@@ -616,6 +616,44 @@
                     "NORM"
                 ],
                 "SeriesDescription": "Axial MB DTI"
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "magnitude1",
+            "custom_entities": "acq-se",
+            "criteria": {
+                "ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
+                "SeriesDescription": "Field Mapping",
+                "EchoNumber": 1
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "magnitude2",
+            "custom_entities": "acq-se",
+            "criteria": {
+                "ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "DIS2D"],
+                "SeriesDescription": "Field Mapping",
+                "EchoNumber": 2
+            }
+        },
+        {
+            "datatype": "fmap",
+            "suffix": "phasediff",
+            "custom_entities": "acq-se",
+            "criteria": {
+                "ImageTypeText": ["ORIGINAL", "PRIMARY", "P", "DIS2D"],
+                "SeriesDescription": "Field Mapping"
+            }
+        },
+        {
+            "datatype": "func",
+            "suffix": "bold",
+            "custom_entities": "task-rest_acq-MB",
+            "criteria": {
+                "ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "ND"],
+                "SeriesDescription": "Axial MB rsfMRI (Eyes Open)"
             }
         }
     ]
