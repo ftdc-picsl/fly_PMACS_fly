@@ -3,7 +3,7 @@ import flywheel
 
 fw = flywheel.Client('')
 
-# Usage: python remove_bids_from_flywheel.py <subject> <session> <group> <project> 
+# Usage: python remove_bids_from_flywheel.py <subject> <session> <group> <project> <bids modality to remove>
 subject = sys.argv[1]
 session = sys.argv[2]
 group = sys.argv[3]
