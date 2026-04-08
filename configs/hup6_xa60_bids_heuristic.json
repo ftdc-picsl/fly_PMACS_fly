@@ -528,7 +528,7 @@
         {
             "datatype": "perf",
             "suffix": "m0scan",
-            "custom_entities": "acq-HASL7",
+            "custom_entities": "acq-LLASL",
             "criteria": {
                 "Modality": "MR",
                 "ImageTypeText": [
