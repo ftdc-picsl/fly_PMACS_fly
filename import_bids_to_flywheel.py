@@ -35,7 +35,7 @@ def fw_upload_file(acquisition, file_path, json_data, classification):
     # print(uploaded_file)
 
 
-for mod in ["anat", "func", "dwi", "asl", "fmap", "swi"]: #all modalities available for our data
+for mod in ["anat", "func", "dwi", "perf", "fmap", "swi"]: #all modalities available for our data
     mod_path = os.path.join(bids_path, mod)
     # print(mod_path)
     if os.path.exists(mod_path):
