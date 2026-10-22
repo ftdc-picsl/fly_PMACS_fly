@@ -655,6 +655,300 @@
                 "ImageTypeText": ["ORIGINAL", "PRIMARY", "M", "ND"],
                 "SeriesDescription": "Axial MB rsfMRI (Eyes Open)"
             }
+        },
+        {
+            "datatype": "dwi",
+            "suffix": "dwi",
+            "custom_entities": "acq-ms127dir_dir-PA",
+            "criteria": {
+                "SeriesDescription": "Axial MB DTI*PA"
+            }
+        },
+        {
+            "datatype": "dwi",
+            "suffix": "dwi",
+            "custom_entities": "acq-ss7dir_dir-AP",
+            "criteria": {
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "DIFFUSION",
+                    "NONE",
+                    "ND",
+                    "NORM"
+                ],
+                "SeriesDescription": "Axial MB DTI AP (MSV21)"
+            }
+        },
+        {
+            "datatype": "perf",
+            "suffix": "asl",
+            "custom_entities": "acq-pcaslPLD3000",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "ASL",
+                    "NONE",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "ProtocolName": "Axial 3D pCASL 3000 (Eyes Open) (MSV24)",
+                "SeriesDescription": "Axial 3D pCASL 3000 (Eyes Open) (MSV24)"
+            }
+        },
+        {
+            "datatype": "perf",
+            "suffix": "asl",
+            "custom_entities": "acq-pcaslPLD2500",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "ASL",
+                    "NONE",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "ProtocolName": "Axial 3D pCASL 2500 (Eyes Open) (MSV24)",
+                "SeriesDescription": "Axial 3D pCASL 2500 (Eyes Open) (MSV24)"
+            }
+        },
+        {
+            "datatype": "perf",
+            "suffix": "asl",
+            "custom_entities": "acq-pcaslPLD2000",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "ASL",
+                    "NONE",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "ProtocolName": "Axial 3D pCASL 2000 (Eyes Open) (MSV24)",
+                "SeriesDescription": "Axial 3D pCASL 2000 (Eyes Open) (MSV24)"
+            }
+        },
+        {
+            "datatype": "perf",
+            "suffix": "asl",
+            "custom_entities": "acq-pcaslPLD1500",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "ASL",
+                    "NONE",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "ProtocolName": "Axial 3D pCASL 1500 (Eyes Open) (MSV24)",
+                "SeriesDescription": "Axial 3D pCASL 1500 (Eyes Open) (MSV24)"
+            }
+        },
+        {
+            "datatype": "perf",
+            "suffix": "asl",
+            "custom_entities": "acq-pcaslPLD1260",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "ASL",
+                    "NONE",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "ProtocolName": "Axial 3D pCASL 1260 (Eyes Open) (MSV24)",
+                "SeriesDescription": "Axial 3D pCASL 1260 (Eyes Open) (MSV24)"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-1_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "1"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-2_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "2"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-3_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "3"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-4_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "4"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-5_part-mag",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "M",
+                    "NORM",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "5"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-1_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "1"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-2_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "2"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-3_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "3"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-4_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "4"
+            }
+        },
+        {
+            "datatype": "anat",
+            "suffix": "chimap",
+            "custom_entities": "acq-GRAPPA2_echo-5_part-phase",
+            "criteria": {
+                "Modality": "MR",
+                "ImageTypeText": [
+                    "ORIGINAL",
+                    "PRIMARY",
+                    "P",
+                    "DIS3D",
+                    "DIS2D"
+                ],
+                "SeriesDescription": "Axial 3D ME T2 GRE (MSV21)",
+                "EchoNumber": "5"
+            }
         }
     ]
 }

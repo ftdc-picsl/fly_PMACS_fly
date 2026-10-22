@@ -1,0 +1,13 @@
+flywheel_group="pennftdcenter"
+flywheel_project="HUP6_XA60"
+scripts_dir="/project/ftdc_volumetric/hup6_xa60/scripts/fly_PMACS_fly/"
+dcm2bids_conda_path="/project/ftdc_volumetric/hup6_xa60/scripts/envs/dcm2bids"
+heuristic_path="/project/ftdc_volumetric/hup6_xa60/scripts/fly_PMACS_fly/configs/hup6_xa60_bids_heuristic.json"
+dicom_base="/project/ftdc_volumetric/hup6_xa60/dicoms/"
+exclude_quarantine_dicom_base="/project/ftdc_volumetric/hup6_xa60/exclude_quarantine_dicom_base/"
+bids_base="/project/ftdc_volumetric/hup6_xa60/bids/"
+log_path="/project/ftdc_volumetric/hup6_xa60/logs/fly_PMACS_fly/"
+lists_path="/project/ftdc_volumetric/hup6_xa60/lists/"
+overwrite=False
+exclude_quarantine=1
+calculate_add_motion=True

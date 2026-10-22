@@ -64,17 +64,21 @@ done
 
 
 # Run dcm2niix:
-dcm2niix -b y -ba n -z y -f %3s_%f_%p_%t -o ${nifti_dir} ${uncompressed_dicom_dir}
+cmd="dcm2niix -b y -ba n -z y -f %3s_%f_%p_%t -o ${nifti_dir} ${uncompressed_dicom_dir}"
+echo $cmd 
+$cmd
 
 # echo "finished dcm2niix exiting"
 # exit 1
-echo "BIDSifying subject: $subj, session: $sess"
-
+echo "Removing existing BIDS output if it exists" 
 rm -rf ${bids_base}/sub-${subj}/ses-${sess} # just delete if exists
 
+echo "BIDSifying subject: $subj, session: $sess"
 
 # Run dcm2bids:
-dcm2bids -d ${uncompressed_dicom_dir} -c ${heuristic} -o ${bids_base} -p ${subj} -s ${sess} --auto_extract_entities --skip_dcm2niix
+cmd="dcm2bids -d ${uncompressed_dicom_dir} -c ${heuristic} -o ${bids_base} -p ${subj} -s ${sess} --auto_extract_entities --skip_dcm2niix"
+echo $cmd 
+$cmd
 
 # Add IntendedFor field to DWI JSON files
 python ${scripts_dir}add_intendedfor_dwi.py ${subj} ${sess} ${bids_base}
