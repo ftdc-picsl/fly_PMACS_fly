@@ -68,6 +68,10 @@ cmd="dcm2niix -b y -ba n -z y -f %3s_%f_%p_%t -o ${nifti_dir} ${uncompressed_dic
 echo $cmd 
 $cmd
 
+# Add some additional info to nifti sidecars to make dcm2bids more robust:
+echo "Adding number of directions and shells to diffusion sidecars"
+python ${scripts_dir}/add_shells_and_directions_to_json.py $nifti_dir
+
 # echo "finished dcm2niix exiting"
 # exit 1
 echo "Removing existing BIDS output if it exists" 
